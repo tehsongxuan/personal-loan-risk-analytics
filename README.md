@@ -1,115 +1,107 @@
 [TehSongXuan_Personal_Loan_AIMLProject2_full_code - Copy.html](https://github.com/user-attachments/files/25361473/TehSongXuan_Personal_Loan_AIMLProject2_full_code.-.Copy.html)
 # personal-loan-risk-analytics
 Personal loan analytics project applying machine learning and data visualisation to generate actionable insights for customer targeting and innovation strategy. Includes executive-ready presentation, model evaluation, and business recommendations to support data-driven decision-making and digital solution adoption in a banking context.
-# ReneWind Predictive Maintenance ML Case Study
 
-Failure prediction for wind turbine generators using sensor data, neural network modelling, and recall-focused optimisation.
+# Personal Loan Risk & Customer Analytics Case Study
+
+Data-driven credit risk assessment and customer segmentation to support lending strategy, portfolio quality, and targeted financial product design.
 
 ## Project Overview
-This project analyses a predictive maintenance use case for ReneWind, a wind energy company seeking to identify generator failures before breakdown.
+This project analyses a personal loan dataset to support credit risk evaluation, customer segmentation, and lending decision optimisation.
 
-The analysis focuses on translating machine learning outputs into operational decision-making, including earlier failure detection, reduced maintenance costs, and improved asset reliability.
+The analysis focuses on translating data insights into practical banking outcomes, including improving loan approval strategies, reducing default risk, and enabling targeted financial product offerings.
 
 Beyond modelling, this case study demonstrates how analytics can be structured into clear, decision-ready insights for business stakeholders.
 
 ## Business Problem
-ReneWind aims to reduce generator downtime and maintenance costs by predicting failures in advance.
+Financial institutions aim to grow their lending portfolios while maintaining strong credit quality.
 
-In this problem:
-- True Positives (TP): failures correctly predicted → repair costs
-- False Negatives (FN): failures missed → higher replacement costs
-- False Positives (FP): normal cases flagged → inspection costs
+Key challenges include:
+- Approving high-risk applicants → increased default losses  
+- Rejecting low-risk applicants → missed revenue opportunities  
+- Poor segmentation → inefficient product targeting  
 
-Because missed failures are more costly than false alarms, **Recall** is prioritised as the key evaluation metric.
+The objective is to:
+**balance portfolio growth, risk exposure, and customer targeting using data-driven decision frameworks**
 
 ## Objective
-Build and compare classification models to:
-- identify likely generator failures early
-- support preventive maintenance decisions
-- reduce operational risk and downtime
+Develop analytical models and segmentation approaches to:
+- predict likelihood of loan acceptance  
+- identify key drivers influencing borrowing behaviour  
+- improve targeting of loan campaigns  
+- support alignment between risk management and revenue growth  
 
 ## Dataset
-- 40 predictor variables  
-- 20,000 training observations  
-- 5,000 test observations  
+- Customer demographic, financial, and behavioural attributes  
+- Variables include income, education, family size, credit card usage, and mortgage status  
 
 Target variable:
-- `1` = failure  
-- `0` = no failure  
-
-The dataset is a transformed version of confidential sensor data.
+- Loan acceptance (Yes / No)
 
 ## Approach
-The project follows a structured machine learning workflow:
+The project follows a structured analytics workflow:
 
-1. Business understanding and problem framing  
+1. Business understanding and lending context  
 2. Exploratory data analysis  
-3. Data preprocessing  
-4. Baseline neural network modelling  
-5. Model improvement through experimentation  
-6. Model evaluation using recall, precision, F1-score, and confusion matrices  
+3. Data preprocessing and feature engineering  
+4. Model development for classification  
+5. Model evaluation using performance metrics  
+6. Interpretation of key drivers  
 7. Translation into business insights  
 
 ## Model Development
-Multiple neural network configurations were developed and compared, including:
-- baseline model  
-- dropout regularisation  
-- class-weighted model for imbalanced data  
-- SGD vs Adam optimisers  
-- deeper architectures with additional hidden layers  
+Analytical techniques applied include:
+- classification models for loan acceptance prediction  
+- feature importance analysis  
+- customer segmentation for targeted strategies  
 
-The focus was on improving recall while maintaining generalisation performance.
+The focus was on interpretability and usability, ensuring outputs can support business decision-making.
 
 ## Key Results
-- Model 3 achieved the strongest recall performance on unseen data  
-- Demonstrated that accuracy alone is not suitable for imbalanced predictive maintenance problems  
-- Highlighted trade-offs between higher recall and lower precision  
-- Reinforced the importance of aligning model selection with business risk  
+- Identified key predictors such as income, education, and existing financial relationships  
+- Improved targeting precision for loan campaigns  
+- Highlighted trade-offs between loan growth and credit risk  
+- Demonstrated value of segmentation for differentiated customer strategies  
 
 ## Business Insights
-This project demonstrates how machine learning can support operations by:
-- detecting failures earlier  
-- reducing unplanned downtime  
-- prioritising maintenance actions  
-- improving asset reliability  
-- enabling proactive maintenance strategies  
+This project demonstrates how analytics can support banking operations by:
+- improving loan targeting efficiency  
+- enhancing cross-sell opportunities  
+- reducing default risk  
+- enabling personalised financial product offerings  
+- aligning lending strategies with customer profiles  
 
 ## Strategic Relevance
-This case study reflects how analytics capabilities can be translated into broader operational and innovation contexts:
+This case study reflects how analytics capabilities can support broader innovation and ecosystem strategies:
 
-- supports integration into predictive maintenance systems  
-- enables data-driven decision frameworks for operations teams  
-- demonstrates how models can evolve into scalable solutions  
-- highlights the importance of aligning technical outputs with business priorities  
+- supports integration into digital banking platforms  
+- enables data-driven customer engagement strategies  
+- informs collaboration with fintech partners  
+- demonstrates how insights can scale into pilots and operational capabilities  
 
 ## Files in this Repository
-- `README.md` — project overview and summary  
-- `TehSongXuan_INN_ReneWind_Project_FullCode.html` — full notebook  
-- `images/` — charts and model outputs  
-- `docs/` — optional GitHub Pages version  
-
-## View the Full Project
-[View ReneWind Full Project](https://github.com/user-attachments/files/XXXXXXXX/TehSongXuan_INN_ReneWind_Project_FullCode.html)
+- `README.md` — project overview  
+- `notebook.ipynb / HTML` — full analysis  
+- `images/` — charts and insights  
 
 ## Tools Used
 - Python  
 - Pandas  
 - NumPy  
 - Scikit-learn  
-- TensorFlow / Keras  
 - Matplotlib / Seaborn  
 
 ## Why This Project Matters
 This case study reflects my focus on:
-- translating machine learning into business value  
-- structuring insights for stakeholder understanding  
-- bridging technical analysis with operational outcomes  
+- translating analytics into decision-ready insights  
+- communicating technical outputs in a business context  
+- bridging data science with real-world financial applications  
 
 ## Future Enhancements
-- explore tree-based ensemble models  
-- implement cost-sensitive threshold tuning  
-- design deployment-ready alert systems  
-- integrate outputs into dashboards or reporting tools  
+- incorporate alternative data for credit scoring  
+- apply explainable AI techniques  
+- explore real-time decision systems  
+- extend into partnership-driven fintech use cases  
 
 ## Author
 Song Xuan
